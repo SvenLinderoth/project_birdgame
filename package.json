@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . JumpGame && cp testCharacter.png JumpGame-darwin-arm64/JumpGame.app/Contents/Resources/electron.icns"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^22.0.3" 
+  },
+    "devDependencies": {
+      "electron-packager": "^17.1.1"
+  }
+}
